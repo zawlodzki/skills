@@ -1,0 +1,13 @@
+{
+  "name": "zawlodzki-skills",
+  "version": "0.1.0",
+  "description": "Skille Grzegorza Zawłodzkiego dla Claude Code. Na start: natural-writing, czyli pisanie i redakcja tekstów (PL i EN) bez typowych nawyków prozy generowanej przez LLM.",
+  "author": {
+    "name": "Grzegorz Zawłodzki",
+    "email": "grzesiek@zawlodzki.pl"
+  },
+  "homepage": "https://github.com/zawlodzki/skills",
+  "repository": "https://github.com/zawlodzki/skills",
+  "license": "MIT",
+  "keywords": ["writing", "copywriting", "editing", "ai-tells", "humanizacja", "proofreading"]
+}

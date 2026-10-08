@@ -1,0 +1,23 @@
+{
+  "skill_name": "natural-writing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Napisz mi post na LinkedIn (ok. 150 słów) o tym, że małe firmy usługowe za wcześnie kupują rozbudowany CRM. Prowadzę doradztwo w zakresie procesów sprzedaży dla firm 5-30 osób.",
+      "expected_output": "Post po polsku, wejście od konkretu, stanowisko autora, zróżnicowany rytm, brak fraz-sygnałów, znaczniki [DO UZUPEŁNIENIA] zamiast zmyślonych klientów i liczb.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Ten opis usługi brzmi jak z ChatGPT, popraw go: 'W dzisiejszym dynamicznym świecie biznesu kluczowe jest posiadanie kompleksowej strategii sprzedażowej. Nasza dedykowana usługa audytu procesów sprzedaży adresuje najważniejsze wyzwania Twojej firmy. Nie tylko identyfikujemy problemy, ale także dostarczamy wartość na każdym etapie współpracy. Warto podkreślić, że eksperci zgodnie uważają, iż holistyczne podejście to klucz do sukcesu. Podsumowując, nasz audyt to inwestycja w przyszłość Twojej firmy.'",
+      "expected_output": "Przepisany opis bez fraz-sygnałów i kalk, konkretny (co obejmuje audyt), znaczniki tam, gdzie brakuje danych, krótka lista zmian pod tekstem.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Write a short blog intro (~200 words) for our B2B SaaS changelog announcing that we now support two-way sync with HubSpot. Audience: RevOps managers.",
+      "expected_output": "English intro, no 'we're excited to announce', no em dash clusters, no bold-lead bullets, concrete about what syncs, placeholders for missing specifics.",
+      "files": []
+    }
+  ]
+}
